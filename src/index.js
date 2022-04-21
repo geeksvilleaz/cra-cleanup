@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const child_process = require("child_process");
 
-const basePath = path.join(__dirname, "../..");
+const basePath = path.join(__dirname, "../../..");
 const srcPath = path.join(basePath, "src");
 
 console.log("Cleaning up CRA build...");

@@ -1,5 +1,10 @@
 # Change Log
 
+## v1.3.0
+
+- Final fix for base directory
+- Minor README changes.
+
 ## v1.2.0
 
 - Fixed build process
