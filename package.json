@@ -1,6 +1,6 @@
 {
   "name": "cra-cleanup",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Cleans up extra files added by create-react-app",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "build": "cp src/index.js bin/cra-cleanup.js",
+    "build": "rm bin/cra-cleanup.js && cp src/index.js bin/cra-cleanup.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bill Bailey",
