@@ -1,0 +1,14 @@
+{
+  "name": "cra-cleanup",
+  "version": "1.0.0",
+  "description": "Cleans up extra files added by create-react-app",
+  "bin": {
+    "cra-cleanup": "src/index.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill Bailey",
+  "license": "ISC"
+}
